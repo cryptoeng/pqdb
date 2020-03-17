@@ -1,0 +1,6 @@
+name: Reference, using Keccak
+type: reference
+platform: c
+side channel guarding:
+  branching: true
+  timing: false

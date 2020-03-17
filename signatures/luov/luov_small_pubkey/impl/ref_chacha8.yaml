@@ -1,0 +1,6 @@
+name: Reference, using Chacha8
+type: reference
+platform: c
+side channel guarding:
+  branching: true
+  timing: false

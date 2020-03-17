@@ -1,0 +1,18 @@
+name: LUOV
+category: multivariate
+year:
+	paper: 2017
+	candidate: 2017
+problems:
+	- assumption: UOV
+stateful: 
+nist round: 2
+authors:
+  - Ward Beullens
+  - Bart Preneel
+  - Alan Szepieniec
+  - Frederik Vercauteren
+sources:
+  - NIST Submission Paper
+  - https://eprint.iacr.org/2017/776
+  - https://pqc-wiki.fau.edu/w/Special:DatabaseHome

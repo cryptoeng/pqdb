@@ -1,0 +1,8 @@
+name: AVX2 Optimized, using Keccak
+type: optimized
+platform: c
+side channel guarding:
+  branching: true
+  timing: true
+hardware features:
+  - avx2

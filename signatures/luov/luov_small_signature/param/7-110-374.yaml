@@ -1,0 +1,11 @@
+name: LUOV (small public key) 5
+security level:
+    classical: 274
+    quantum: 234
+    nist category: 5
+failure probability: 0
+sizes:
+    sk: 32
+    pk: 83968
+    ct/sig: 440
+    msg: 32
