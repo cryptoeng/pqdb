@@ -1,0 +1,6 @@
+name: PQM4
+platform: assembly
+type: optimized
+side channel guarding:
+  branching: false
+hardware features: []

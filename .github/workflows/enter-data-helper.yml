@@ -1,0 +1,35 @@
+name: Enter Data Helper
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build-and-package:
+    runs-on: ubuntu-latest
+    env:
+      helper-dir: tools/enter-data-helper
+
+    steps:
+    - uses: actions/checkout@v2
+    - uses: actions/setup-node@v1
+      with:
+        node-version: 12.x
+    - name: Install dependencies, build, and package
+      working-directory: ${{ env.helper-dir }}
+      run: |
+        yarn install
+        yarn build
+        yarn package-linux
+        yarn package-mac
+    - name: Upload Linux package
+      uses: actions/upload-artifact@v1
+      with:
+        name: linux-package
+        path: ${{ env.helper-dir }}/dist/enter-data-helper-linux.AppImage
+    - name: Upload MacOS package
+      uses: actions/upload-artifact@v1
+      with:
+        name: mac-package
+        path: ${{ env.helper-dir }}/dist/enter-data-helper-mac.tar.gz

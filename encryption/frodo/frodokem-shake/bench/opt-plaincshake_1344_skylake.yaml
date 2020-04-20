@@ -1,8 +1,7 @@
-impl: opt-plaincshake
-param: "1344"
 platform: Intel Core i7-6700 (Skylake) 3.4GHZ
 timings:
   unit: cycles
-  gen: 30301000
-  enc/sign: 32611000
-  dec/vrfy: 32387000
+  measurements:
+    gen: 30301000
+    enc|sign: 32611000
+    dec|vrfy: 32387000

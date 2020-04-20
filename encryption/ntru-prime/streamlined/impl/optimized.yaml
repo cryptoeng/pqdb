@@ -1,0 +1,12 @@
+name: optimized
+comment: >-
+  https://ntruprime.cr.yp.to/nist/ntruprime-20190330/Optimized_Implementation.html
+platform: x64
+side channel guarding:
+  timing comment: ToDo
+  branching comment: ToDo
+hardware features:
+  - avx
+  - aes-ni
+dependencies:
+  - openssl

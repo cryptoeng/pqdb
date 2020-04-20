@@ -1,8 +1,7 @@
-impl: opt-openssl
-param: "976"
 platform: Intel Core i7-6700 (Skylake) 3.4GHZ
 timings:
   unit: cycles
-  gen: 2820000
-  enc/sign: 3559000
-  dec/vrfy: 3400000
+  measurements:
+    gen: 2820000
+    enc|sign: 3559000
+    dec|vrfy: 3400000

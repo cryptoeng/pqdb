@@ -1,11 +1,11 @@
 name: sign/GeMSS256
 security level:
-	classical: 256
-	quantum: 149
-	nist category: 5
+  classical: 256
+  quantum: 149
+  nist category: 5
 failure probability: -1.3306513097844322e+19
+number of operations: TODO
 sizes:
-	sk: 75893
-	pk: 3040700
-	ct/sig: 72
-	msg: 
+  sk: 75893
+  pk: 3040700
+  ct|sig: 72

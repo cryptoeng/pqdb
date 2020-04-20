@@ -1,0 +1,6 @@
+name: Reference
+platform: c
+type: reference
+side channel guarding:
+  branching: false
+hardware features: []

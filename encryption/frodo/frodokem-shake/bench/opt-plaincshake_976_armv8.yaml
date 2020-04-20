@@ -1,8 +1,7 @@
-impl: opt-plaincshake
-param: "976"
 platform: ARM Cortex-A72 (1.992GHz 64-bit)
 timings:
   unit: cycles
-  gen: 24844000
-  enc/sign: 27033000
-  dec/vrfy: 26936000
+  measurements:
+    gen: 24844000
+    enc|sign: 27033000
+    dec|vrfy: 26936000

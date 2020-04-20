@@ -1,0 +1,4 @@
+name: qTESLA-p
+type: SIG
+security notion: EUF-CMA
+security notion comment: Reduction from the R-LWE problem to EUF-CMA

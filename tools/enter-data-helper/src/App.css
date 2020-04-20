@@ -1,0 +1,7 @@
+body {
+  overflow-x: hidden;
+}
+
+.MuiTooltip-tooltip {
+    font-size: 1rem !important;
+}

@@ -9,5 +9,5 @@ number of operations: inf
 sizes:
     sk: 1463
     pk: 1184
-    ct/sig: 1312
+    ct|sig: 1312
     msg: 32 # XXX: I'm not sure this is useful

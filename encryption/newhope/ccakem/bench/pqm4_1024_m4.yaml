@@ -1,0 +1,7 @@
+platform: Cortex-M4 (ARM)
+timings:
+  unit: cycles
+  measurements:
+    gen: 1142743
+    enc|sign: 1785343
+    dec|vrfy: 1797757

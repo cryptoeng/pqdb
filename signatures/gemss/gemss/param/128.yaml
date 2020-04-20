@@ -1,11 +1,11 @@
 name: sign/GeMSS128
 security level:
-	classical: 128
-	quantum: 174
-	nist category: 1
+  classical: 128
+  quantum: 174
+  nist category: 1
 failure probability: -24204404
+number of operations: TODO
 sizes:
-	sk: 13438
-	pk: 352188
-	ct/sig: 33
-	msg: 
+  sk: 13438
+  pk: 352188
+  ct|sig: 33

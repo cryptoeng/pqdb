@@ -1,0 +1,12 @@
+name: 160 (p-III)
+security level:
+  classical: 304
+  quantum: 279
+  nist category: 3
+failure probability: 0
+number of operations: inf
+sizes:
+  sk: 12392
+  pk: 38432
+  ct|sig: 5664
+  msg: 256

@@ -30,6 +30,17 @@
                 "category comment": {
                     "type": "string"
         },
+        "stateful": {
+            "type": "boolean"
+        },
+        "stateful comment": {
+            "type": "string"
+        },
+        "nist round": {
+            "type": "integer",
+            "minimum": 0,
+            "$comment": "0 for schemes that were not submitted to the NIST PQC Standardization Process."
+        },
         "year": {
             "type": "object",
             "properties": {
@@ -51,20 +62,11 @@
         },
         "authors": {
             "type": "array",
+            "minItems": 1,
             "items": {
-                "type": "string"
+                "type": "string",
+                "minLength": 2
             }
-        },
-        "stateful": {
-            "type": "boolean"
-        },
-        "stateful comment": {
-            "type": "string"
-        },
-        "nist round": {
-            "type": "integer",
-            "minimum": 0,
-            "$comment": "0 for schemes that were not submitted to the NIST PQC Standardization Process."
         },
         "problems": {
             "type": "array",

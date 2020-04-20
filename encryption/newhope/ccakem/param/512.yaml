@@ -1,0 +1,12 @@
+name: NewHope.CCAKEM512
+security level:
+    classical: 143
+    quantum: 101
+    nist category: 1
+failure probability: -213
+number of operations: inf
+sizes:
+    sk: 1888
+    pk: 928
+    ct|sig: 1120
+    msg: 256

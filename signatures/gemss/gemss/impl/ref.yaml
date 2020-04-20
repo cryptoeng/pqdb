@@ -1,4 +1,3 @@
 name: Reference
 type: reference
 platform: c
-side channel guarding:

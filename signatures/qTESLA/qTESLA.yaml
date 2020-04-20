@@ -1,0 +1,23 @@
+name: qTESLA
+year:
+    candidate: 2017
+category: lattice
+authors:
+  - Nina Bindel
+  - Sedat Akleylek
+  - Erdem Alkim
+  - Paulo S. L. M. Barreto
+  - Johannes Buchmann
+  - Edward Eaton
+  - Gus Gutoski
+  - Juliane Kraemer
+  - Patrick Longa
+  - Harun Polat
+  - Jefferson E. Ricardini
+  - Gustavo Zanon
+problems:
+    - assumption: R-LWE
+stateful: false
+nist round: 2
+sources:
+  - NIST Submission Paper

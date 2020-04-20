@@ -1,13 +1,52 @@
 {
+    "definitions": {
+        "timing_totalled": {
+            "title": "Totalled",
+            "type": "object",
+            "properties": {
+                "total": {
+                    "type": "number",
+                    "$comment": "Equaling gen+enc+dec. Makes sense in a KEM setting."
+                }
+            },
+            "additionalProperties": false,
+            "required": [
+                "total"
+            ]
+        },
+        "timing_detailled": {
+            "title": "Detailled",
+            "type": "object",
+            "properties": {
+                "gen": {
+                    "type": "number"
+                },
+                "enc|sign": {
+                    "type": "number"
+                },
+                "dec|vrfy": {
+                    "type": "number"
+                }
+            },
+            "additionalProperties": false,
+            "required": [
+                "gen",
+                "enc|sign",
+                "dec|vrfy"
+            ]
+        }
+    },
     "$schema": "http://json-schema.org/schema#",
     "$id": "benchmark.json#",
     "type": "object",
     "properties": {
         "impl": {
-            "type": "string"
+            "type": "string",
+            "pattern": "^[a-zA-Z0-9-]+$"
         },
         "param": {
-            "type": "string"
+            "type": "string",
+            "pattern": "^[a-zA-Z0-9-]+$"
         },
         "comment": {
             "type": "string"
@@ -17,8 +56,17 @@
             "$comment": "#TODO make this reference to platform object. Add OS and Compiler info"
         },
         "timings": {
-            "type": "object",
             "properties": {
+                "measurements": {
+                    "oneOf": [
+                        {
+                            "$ref": "#/definitions/timing_detailled"
+                        },
+                        {
+                            "$ref": "#/definitions/timing_totalled"
+                        }
+                    ]
+                },
                 "unit": {
                     "type": "string",
                     "enum": [
@@ -26,20 +74,14 @@
                         "ms"
                     ]
                 },
-                "gen": {
-                    "type": "number"
-                },
-                "enc/sign": {
-                    "type": "number"
-                },
-                "dec/vrfy": {
-                    "type": "number"
-                },
                 "comment": {
                     "type": "string"
                 }
             },
-            "additionalProperties": false
+            "required": [
+                "measurements",
+                "unit"
+            ]
         },
         "memory requirements": {
             "type": "object",
@@ -47,10 +89,10 @@
                 "gen": {
                     "type": "integer"
                 },
-                "enc/sign": {
+                "enc|sign": {
                     "type": "integer"
                 },
-                "dec/vrfy": {
+                "dec|vrfy": {
                     "type": "integer"
                 },
                 "comment": {

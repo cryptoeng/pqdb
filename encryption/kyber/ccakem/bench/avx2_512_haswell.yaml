@@ -1,8 +1,7 @@
-impl: avx2
-param: "512"
 platform: Intel Core i7-4770K (Haswell)
 timings:
   unit: cycles
-  gen: 55160
-  enc/sign: 75680
-  dec/vrfy: 74428
+  measurements:
+    gen: 55160
+    enc|sign: 75680
+    dec|vrfy: 74428

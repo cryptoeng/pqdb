@@ -1,8 +1,7 @@
-impl: opt-plaincaes
-param: "1344"
 platform: ARM Cortex-A72 (1.992GHz 64-bit)
 timings:
   unit: cycles
-  gen: 191359000
-  enc/sign: 193123000
-  dec/vrfy: 192458000
+  measurements:
+    gen: 191359000
+    enc|sign: 193123000
+    dec|vrfy: 192458000

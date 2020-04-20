@@ -1,0 +1,12 @@
+name: 95 (p-I)
+security level:
+  classical: 150
+  quantum: 139
+  nist category: 1
+failure probability: 0
+number of operations: inf
+sizes:
+  sk: 5224
+  pk: 14880
+  ct|sig: 2592
+  msg: 256

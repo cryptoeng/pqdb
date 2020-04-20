@@ -1,0 +1,19 @@
+name: NewHope
+year:
+    candidate: 2017
+category: lattice
+authors:
+  - Erdem Talkim
+  - Roberto Avanzi
+  - Joppe Bos
+  - Léo Ducas
+  - Antonio de la Piedra
+  - Thomas Pöppelmann
+  - Peter Schwabe
+  - Douglas Stebila
+problems:
+    - assumption: R-LWE
+stateful: false
+nist round: 2
+sources:
+  - NIST Submission Paper

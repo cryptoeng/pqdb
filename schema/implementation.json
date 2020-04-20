@@ -56,7 +56,7 @@
         "code size": {
             "type": "object",
             "$comment": "in bytes",
-            "items": {
+            "properties": {
                 "overall": {
                     "type": "number",
                     "$comment": "If there is only one implementation for all operations"
@@ -64,10 +64,10 @@
                 "gen": {
                     "type": "number"
                 },
-                "enc/sign": {
+                "enc|sign": {
                     "type": "number"
                 },
-                "dec/vrfy": {
+                "dec|vrfy": {
                     "type": "number"
                 },
                 "comment": {
@@ -75,19 +75,16 @@
                 }
             }
         },
-        "code size comment": {
-            "type": "string"
-        },
         "randomness required": {
             "type": "object",
-            "items": {
+            "properties": {
                 "gen": {
                     "type": "number"
                 },
-                "enc/sign": {
+                "enc|sign": {
                     "type": "number"
                 },
-                "dec/vrfy": {
+                "dec|vrfy": {
                     "type": "number"
                 },
                 "comment": {

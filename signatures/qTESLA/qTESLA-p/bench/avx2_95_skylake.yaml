@@ -1,0 +1,7 @@
+platform: Intel Core i7-6700 (Skylake) 3.4GHZ
+timings:
+  unit: cycles
+  measurements:
+    gen: 2212400
+    enc|sign: 1370400
+    dec|vrfy: 678400

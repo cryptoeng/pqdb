@@ -1,11 +1,12 @@
-name: 
+name: GeMSS
+type: sig
 category: multivariate
 year:
-	paper: 2017
-	candidate: 2017
+  paper: 2017
+  candidate: 2017
 problems:
-	- assumption: HFE
-stateful: 
+  - assumption: HFE
+stateful: false
 nist round: 2
 authors:
   - A. Casanova
