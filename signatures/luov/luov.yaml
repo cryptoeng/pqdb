@@ -1,10 +1,10 @@
 name: LUOV
 category: multivariate
 year:
-	paper: 2017
-	candidate: 2017
+  paper: 2017
+  candidate: 2017
 problems:
-	- assumption: UOV
+  - assumption: UOV
 stateful: false
 nist round: 2
 authors:
