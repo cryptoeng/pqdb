@@ -1,4 +1,5 @@
 name: MQDSS
+description: is a multivariate digital signature scheme derived from provably secure identification scheme based on the MQ problem 
 comment: Version 2.1
 category: multivariate
 year:

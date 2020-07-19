@@ -1,7 +1,5 @@
 name: SPHINCS+
-description: >-
-  stateless hash-based using Merkle's tree approach with a new few-time
-  signature scheme (FORS).
+description: stateless hash-based using Merkle's tree approach with a new few-time signature scheme (FORS).
 year:
   candidate: 2017
   paper: 2015

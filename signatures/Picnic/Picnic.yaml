@@ -1,4 +1,5 @@
 name: Picnic
+description:  no number-theoretic or structured hardness assumptions. The security reductions are to hash functions and symmetric block ciphers. A Picnic signature is a non-interactive zero-knowledge proof of knowledge of the secret key.
 year:
     paper: 2017
     candidate: 2017
