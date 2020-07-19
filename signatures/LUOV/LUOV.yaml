@@ -1,4 +1,5 @@
 name: LUOV
+description: is a small-field multivariate digital signature based on UOV scheme. The main innovation is to specify the public key as a map on a certain finite field while publishing coefficients on a subfield.
 stateful: false
 category: multivariate
 nist round: 2
