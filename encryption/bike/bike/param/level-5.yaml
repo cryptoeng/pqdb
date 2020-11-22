@@ -1,0 +1,12 @@
+name: BIKE Level-3
+sizes:
+  sk: 580
+  pk: 5122
+  ct|sig: 5154
+number of operations: inf
+failure probability comment: ''
+failure probability: -256
+security level:
+  nist category: 5
+  classical: 256
+  quantum: 128
